@@ -1,0 +1,26 @@
+explicações:{
+    (normamelte as variavies em rust são imultaveis.)
+    (as varias em rust precisão esta no escopo da função para não dar erro)
+    (se voçe quiser mudar o tipo da variaveu e ela estiver usar mut não mais nessesario ter ainda o mut)
+    (o let vai fazer que o rustc ele adivinhe o tipo da variaveu)
+
+    exemplos:{
+        ===========
+        fn main(){
+            
+        }
+
+        =================
+        let mut var = 10;
+        =================
+        let var = 10;
+        =================
+
+    }
+}
+
+fn  : vai criar uma função
+mut : vai fazer que as variavies em rust agoara sejão multaiveis
+let : usando o let voçe pode criar uma função
+Concatenação : println!("tem sal {}",variaveu);
+

@@ -1,0 +1,24 @@
+usando o rustc. (usando qualque pasta, e sem o cargo new)
+usando o rustc voçe pode usar para compilar projetos simples (tipo um unico arquivo) e sem e eu acho que sem usar dependencias
+tipo "hola mundo!" e outras coisas mais simples
+compilar:{
+rustc arquivo.rs
+}
+Executar:{
+    no linux: ./arquivo
+    no windows: .\arquivo
+}
+==================================================================
+
+Usando o cargo: (criando a pasta do projeto com cargo new nomedoprojeto) e estar na pasta "src" para compilar os codigos.
+usado para fazer projetos usando dependencias e pra projetos maiores ou que use dependencias e etc.
+
+para formatar o codigo (tipo se a formatação estiver erra mais ainda funcionando){
+    cargo fmt
+}
+para compilar os codigos use{
+    cargo build
+}
+para executar o projeto {
+    cargo run
+}
